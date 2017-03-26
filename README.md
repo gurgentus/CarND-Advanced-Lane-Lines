@@ -96,7 +96,7 @@ Example of quadratic fit to 'hot' pixels
 
 ![alt text][image5]
 
-#### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
+#### 5. Radius of curvature of the lane and the position of the vehicle with respect to center.
 
 In lines 394-405 the radius of curvature of the lanes as well as the position of the vehicle within the lane is calculated. The points are assumed to be represented by the equation x = a f(yb).  Then dx/dy = a bf'(yb) and d^2x/dy^2 = a b^2 f''(yb), so the values for a and b corresponding to pixels to meter change of variables are used when calculating the radius of curvature.
 
